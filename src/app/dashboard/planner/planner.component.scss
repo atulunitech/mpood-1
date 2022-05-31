@@ -313,3 +313,23 @@
             }
         }
     }
+
+    .view_action_worp
+    {
+        @include margin(15px,0,0,0);
+        @include padding(10px,15px,10px,15px);
+        @include font-size(0.85);
+        @include font-weight(500);
+        position: relative;
+        h3{
+            @include font-size(1);
+            color: #fff;
+            @include font-weight(600);
+            letter-spacing: 0.050rem;
+            span{
+                @include font-size(0.70);
+                color: #ccc;
+                font-style: italic;
+            }
+        }
+    }
