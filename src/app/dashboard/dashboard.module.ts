@@ -13,6 +13,7 @@ import { MatInputModule } from '@angular/material/input';
 import { CreatesapComponent } from './createsap/createsap.component';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { SAPmasterComponent } from './sapmaster/sapmaster.component';
+import { PlannerComponent } from './planner/planner.component';
 
 
 
@@ -21,7 +22,8 @@ import { SAPmasterComponent } from './sapmaster/sapmaster.component';
   declarations: [
     DashboardComponent,
     CreatesapComponent,
-    SAPmasterComponent
+    SAPmasterComponent,
+    PlannerComponent
   ],
   imports: [
     CommonModule,
